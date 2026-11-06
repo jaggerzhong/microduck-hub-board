@@ -1,0 +1,4 @@
+shapely>=2.0
+fonttools>=4.40
+matplotlib>=3.7
+
