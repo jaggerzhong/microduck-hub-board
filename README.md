@@ -1,12 +1,11 @@
 # Microduck HUB 分线板 RevC
 
+**简体中文** | [English](README.en.md)
+
 <img src="hardware/img/preview.png" width="330" alt="Microduck HUB RevC 顶面布线预览">
 
 给 **Microduck（飞特 Feetech HD1910，15 个舵机）** 用的**纯无源四路总线 HUB**。
 电池、HAT、IMU、左右腿四条线汇到一块 23 × 34 mm 的小板上，板上预留 1000 µF 总电源缓冲电容位置。
-
-> **英文 / English**：A passive 4-port servo bus hub for the Microduck biped (Feetech HD1910).
-> 23 × 34 mm, 2 layers, 1.0 mm thick, no ICs, no vias, no firmware. Gerbers and KiCad source included.
 
 ## 这块板解决什么问题
 
@@ -76,6 +75,7 @@ HD1910 是串联总线舵机：15 个舵机、HAT、IMU 和电池其实挂在**�
 
 ```text
 README.md
+README.en.md                        英文说明 / English documentation
 LICENSE                             CERN-OHL-S-2.0
 hardware/
   Microduck-HUB-RevC.kicad_pcb      KiCad 工程（可直接导入嘉立创专业版 / LCEDA）
